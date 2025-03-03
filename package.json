@@ -1,0 +1,40 @@
+{
+  "name": "@auno/react-exception",
+  "version": "1.5.0",
+  "description": "A lightweight React component for centralized exception handling and display",
+  "module": "index.tsx",
+  "type": "module",
+  "keywords": [
+    "react",
+    "exception",
+    "error-handling",
+    "error-boundary",
+    "typescript",
+    "context"
+  ],
+  "author": "zohayrslileh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zohayrslileh/auno-react-exception"
+  },
+  "bugs": {
+    "url": "https://github.com/zohayrslileh/auno-react-exception/issues"
+  },
+  "homepage": "https://github.com/zohayrslileh/auno-react-exception#readme",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.0.10"
+  },
+  "peerDependencies": {
+    "typescript": "^5",
+    "react": "^19.0.0"
+  },
+  "files": [
+    "index.tsx",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
