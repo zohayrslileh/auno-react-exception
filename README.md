@@ -13,23 +13,23 @@ A lightweight React component for centralized exception handling and display.
 
 ## Installation
 
+**npm**
 ```bash
-# npm
 npm install @auno/react-exception
 ```
 
+**yarn**
 ```bash
-# yarn
 yarn add @auno/react-exception
 ```
 
+**pnpm**
 ```bash
-# pnpm
 pnpm add @auno/react-exception
 ```
 
+**bun**
 ```bash
-# bun
 bun add @auno/react-exception
 ```
 
@@ -89,9 +89,7 @@ Wraps your application and manages the error state:
 ### Customer
 Catches and displays errors:
 ```tsx
-<div className="error-display">
-    <Exception.Customer onCatch={exceptions => exceptions.map(error => <b>{String(error)}</b>)} />
-</div>
+<Exception.Customer onCatch={exceptions => exceptions.map(exception => <b>{String(exception)}</b>)} />
 ```
 
 ### Throw
